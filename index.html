@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+ <link rel= "stylesheet" href="public7/css/main.css">
+</head>
+  <body>
+    
+    <section class="section_datos" id="editar_datos">
+      <img src="public7/imagenes/isolated-2634118_1280.jpg" class="img-thumbnail" alt="...">
+      <h3 id="titulo"> Editar Datos:</h3>
+    <form class="row g-3">
+        <div class="col-md-6">
+          <label for="inputEmail4" class="form-label">Email:</label>
+          <input type="email" class="form-control" id="inputEmail4">
+        </div>
+        <div class="col-md-6">
+          <label for="inputPassword4" class="form-label">Contraseña:</label>
+          <input type="password" class="form-control" id="inputPassword4">
+        </div>
+        <div class="col-12">
+          <label for="inputAddress" class="form-label">Nombre y Apellido:</label>
+          <input type="text" class="form-control" id="inputAddress">
+        </div>
+        <div class="col-12">
+          <label for="inputAddress2" class="form-label">Dirección:</label>
+          <input type="text" class="form-control" id="inputAddress2">
+        </div>
+        <div class="col-md-5">
+          <label for="inputCity" class="form-label">Ciudad</label>
+          <input type="text" class="form-control" id="inputCity">
+        </div>
+        <div class="col-md-4">
+          <label for="inputState" class="form-label">Provincia:</label>
+          <select id="inputState" class="form-select">
+            <option selected>Buscar</option>
+            <option>...</option>
+          </select>
+        </div>
+        <div class="col-md-3">
+          <label for="inputZip" class="form-label">Código Postal:</label>
+          <input type="text" class="form-control" id="inputZip">
+        </div>
+       
+        </div>
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary">Continuar</button>
+        </div>
+      </form>
+    </section>
+
+<section class="section_alta" id="dar_alta">
+
+  <div class="card mb-3" id="card" style="max-width: 540px;">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="public7/imagenes/tea-5326194_1280.jpg" class="img-fluid rounded-start" alt="...">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title" id="titulo-card">Alta de un producto</h5>
+          <form class="row g-3">
+            <div class="col-md-6">
+              <label for="inputEmail4" class="form-label">Nombre:</label>
+              <input type="email" class="form-control" id="inputEmail4">
+            </div>
+            <div class="col-md-6">
+              <label for="inputPassword4" class="form-label">Código:</label>
+              <input type="password" class="form-control" id="inputPassword4">
+            </div>
+            <div class="col-12">
+              <label for="inputAddress" class="form-label">Descripción:</label>
+              <input type="text" class="form-control" id="inputAddress">
+            </div>
+            <div class="col-12">
+              <label for="inputAddress2" class="form-label">Precio:</label>
+              <input type="text" class="form-control" id="inputAddress2">
+            </div>
+        </div>
+      </div>
+    </div>
+  </div> 
+
+
+
+
+</section>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
